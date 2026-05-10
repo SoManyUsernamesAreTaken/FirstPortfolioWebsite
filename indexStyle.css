@@ -1,0 +1,85 @@
+* {
+    font-family: "Fjalla One";
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.title {
+    margin-left: 5%;
+    text-align: left;
+    width: 80%;
+    font-size: 4rem;
+}
+
+.top ul {
+    list-style: none;
+    display: flex;
+    text-align: right;
+    width: 70%;
+}
+
+.top ul li {
+    position: relative;
+    top: 1.5rem;
+    margin-right: 20px;
+    width: 30%;
+    font-size: 2rem;
+}
+
+.top ul li a:link {
+    text-decoration: underline;
+    color: black;
+}
+
+.top ul li a:visited {
+    color: #515151;
+}
+
+.top ul li a:hover {
+    text-decoration: line-through;
+}
+
+.top ul li a:active {
+    text-decoration: none;
+}
+
+main {
+    margin-top: 7.5%;
+}
+
+.about-me {
+    margin-left: 10%;
+    width: 40%;
+    display: inline-block;
+}
+
+.about-me-section-title {
+    font-size: 5rem;
+}
+
+.about-me-section-information {
+    font-size: 3rem;
+}
+
+.image-of-me-from-a-long-time-ago {
+    font-size: 4rem;
+    float: right;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+}

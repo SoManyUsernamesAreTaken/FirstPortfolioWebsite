@@ -1,0 +1,48 @@
+* {
+    font-family: "Fjalla One";
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 4rem;
+}
+
+.list_of_projects-left {
+    margin-top: 5%;
+    list-style: none;
+    display: flex;
+    text-align: right;
+    width: 70%;
+}
+
+.list_of_projects-left li {
+    position: relative;
+    top: 1.5rem;
+    margin-right: 20px;
+    width: 30%;
+    font-size: 2rem;
+}
+
+.list_of_projects-left li a:link {
+    text-decoration: underline;
+    color: black;
+}
+
+.list_of_projects-left li a:visited {
+    color: #515151;
+}
+
+.list_of_projects-left li a:hover {
+    text-decoration: line-through;
+}
+
+.list_of_projects-left li a:active {
+    text-decoration: none;
+}
