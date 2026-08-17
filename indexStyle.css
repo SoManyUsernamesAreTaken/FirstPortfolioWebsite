@@ -1,85 +1,79 @@
 * {
-    font-family: "Fjalla One";
     margin: 0;
     padding: 0;
+    font-family: "Kaushan Script", sans-serif;
 }
 
-html {
-    font-size: 16px;
+h1 {
+    font-size: clamp(2.5em, 5.5vw, 4.5em);
 }
 
-.top {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+h2 {
+    font-size: clamp(1em, 2.5vw, 3.5em)
 }
 
-.title {
+.massachusetts-font {
+    font-family: "Lobster";
+    color: red;
+}
+
+.intro {
+    display: inline-block;
+    width: 40%;
     margin-left: 5%;
-    text-align: left;
-    width: 80%;
-    font-size: 4rem;
+    margin-top: 15%;
 }
 
-.top ul {
-    list-style: none;
+nav {
     display: flex;
-    text-align: right;
-    width: 70%;
+    position: fixed;
+    width: 100%;
+    height: 5%;
+    top: 0;
+    justify-content: center;
+    background-color: rgb(255, 54, 54);
+    z-index: 1;
+    opacity: 0.8;
 }
 
-.top ul li {
+ul {
     position: relative;
-    top: 1.5rem;
-    margin-right: 20px;
-    width: 30%;
-    font-size: 2rem;
+    left: 30.5%;
+    width: 50%;
 }
 
-.top ul li a:link {
-    text-decoration: underline;
-    color: black;
+nav ul li {
+    display: inline-block;
+    margin:  0.25em 1em;
+    font-size: clamp(0.75em, 1.5vw, 1.5em);
 }
 
-.top ul li a:visited {
-    color: #515151;
+nav div {
+    position: relative;
+    left: clamp(-21.5em, -21.5vw, 0em);
 }
 
-.top ul li a:hover {
-    text-decoration: line-through;
+nav div img {
+    background-color: white;
+    height: 4em;
 }
 
-.top ul li a:active {
-    text-decoration: none;
+.main-image {
+    display: inline;
+    position: relative;
+    left: 15%;
+    top: 2.25em;
+}
+
+.main-image img {
+    width: 20%;
 }
 
 main {
-    margin-top: 7.5%;
+    position: relative;
+    top: 5em;
 }
 
-.about-me {
-    margin-left: 10%;
-    width: 40%;
-    display: inline-block;
-}
-
-.about-me-section-title {
-    font-size: 5rem;
-}
-
-.about-me-section-information {
-    font-size: 3rem;
-}
-
-.image-of-me-from-a-long-time-ago {
-    font-size: 4rem;
-    float: right;
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    font-size: 2rem;
+main p {
+    font-size: 2.5em;
 }
